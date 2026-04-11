@@ -41,7 +41,7 @@ public class ShippingInfoTest extends Base {
 
 	@AfterClass
 	public void shutdown() {
-		 CloseBrowser();
+		CloseBrowser();
 		extent.flush();
 
 	}
