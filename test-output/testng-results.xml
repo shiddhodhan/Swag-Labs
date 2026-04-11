@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-11T20:07:56 IST" name="Default suite" finished-at="2026-04-11T20:08:03 IST" duration-ms="6744">
+    <groups>
+    </groups>
+    <test started-at="2026-04-11T20:07:56 IST" name="Default test" finished-at="2026-04-11T20:08:03 IST" duration-ms="6744">
+      <class name="swaglab_tests.ShippingInfoTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:swaglab_tests.ShippingInfoTest@41330d4f]" started-at="2026-04-11T20:07:56 IST" name="setup" finished-at="2026-04-11T20:07:59 IST" duration-ms="2738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginToSwagLabs()[pri:1, instance:swaglab_tests.ShippingInfoTest@41330d4f]" started-at="2026-04-11T20:07:59 IST" name="LoginToSwagLabs" finished-at="2026-04-11T20:08:01 IST" duration-ms="2138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToSwagLabs -->
+        <test-method signature="AddtoCart()[pri:2, instance:swaglab_tests.ShippingInfoTest@41330d4f]" started-at="2026-04-11T20:08:01 IST" name="AddtoCart" finished-at="2026-04-11T20:08:01 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddtoCart -->
+        <test-method signature="checkout()[pri:3, instance:swaglab_tests.ShippingInfoTest@41330d4f]" started-at="2026-04-11T20:08:01 IST" name="checkout" finished-at="2026-04-11T20:08:02 IST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method signature="VerifyPrice()[pri:4, instance:swaglab_tests.ShippingInfoTest@41330d4f]" started-at="2026-04-11T20:08:02 IST" name="VerifyPrice" finished-at="2026-04-11T20:08:02 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPrice -->
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:swaglab_tests.ShippingInfoTest@41330d4f]" started-at="2026-04-11T20:08:02 IST" name="shutdown" finished-at="2026-04-11T20:08:03 IST" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+      </class> <!-- swaglab_tests.ShippingInfoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
