@@ -77,7 +77,7 @@ mvn clean test
 
 * Default TestNG reports are generated after execution
 * Can be extended with Extent Reports / Allure
-Below is the Extent report
+* Below is the Extent report
 <img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/21665e01-ce7f-4027-9d15-3d1635ccc542" />
 
 ---
