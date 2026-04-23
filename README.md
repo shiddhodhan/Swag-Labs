@@ -56,13 +56,13 @@ src
 ### 1️⃣ Clone the repository
 
 ```
-git clone https://github.com/shiddhodhan/saucedemo.git
+git clone https://github.com/shiddhodhan/Swag-Labs.git
 ```
 
 ### 2️⃣ Navigate to project
 
 ```
-cd saucedemo
+cd Swag-Labs
 ```
 
 ### 3️⃣ Run tests
@@ -77,6 +77,7 @@ mvn clean test
 
 * Default TestNG reports are generated after execution
 * Can be extended with Extent Reports / Allure
+Below is the Extent report
 <img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/21665e01-ce7f-4027-9d15-3d1635ccc542" />
 
 ---
