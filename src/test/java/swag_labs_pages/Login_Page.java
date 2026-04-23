@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+ 
 public class Login_Page {
 
 	@FindBy(id = "user-name")
@@ -34,5 +35,7 @@ public class Login_Page {
 	public void ClickLoginButton() {
 		LoginButton.click();
 	}
+ 
+ 
 
 }
