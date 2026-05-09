@@ -17,9 +17,8 @@ public class CartPage {
 	
 	
 	
-	public void Checkout() {
+	public void CheckoutButton() {
 		CheckoutButton.click();
-		
 	}
 	
 	

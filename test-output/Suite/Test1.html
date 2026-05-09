@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Default test</title>
+<title>TestNG:  Test1</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Default test</h2><table border='1' align="center">
+<h2 align='center'>Test1</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Apr 26 19:11:35 IST 2026</td>
+<td>Started on:</td><td>Sun Apr 26 19:25:27 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>7 seconds (7926 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5305 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='swag_labs_steps.Swag_Lab_Runner.runScenario()'><b>runScenario</b><br>Test class: swag_labs_steps.Swag_Lab_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User checking price on the checkout page", "E2E order submission"</td>
+<td title='swag_labs_steps.Swag_Lab_Runner.runScenario()'><b>runScenario</b><br>Test class: swag_labs_steps.Swag_Lab_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test2 User checking price on the checkout page", "E2E order submission"</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;32.39&apos;]&quot;}
   (Session info: chrome=147.0.7727.102)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [716c8b1a9be6da5ece4fb4c0f1522533, findElement {value=//div[text()=&apos;32.39&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\shidd\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53165}, goog:processID: 25736, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53165/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 716c8b1a9be6da5ece4fb4c0f1522533
+Command: [b5ec49ceb80ca5c4d6043c7118113115, findElement {value=//div[text()=&apos;32.39&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\shidd\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62731}, goog:processID: 20004, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62731/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b5ec49ceb80ca5c4d6043c7118113115
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -100,19 +100,19 @@ Session ID: 716c8b1a9be6da5ece4fb4c0f1522533
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy23.getText(Unknown Source)
-	at swag_labs_pages.CheckoutPage.verifyPrice(CheckoutPage.java:62)
-	at swag_labs_steps.Swag_Lab_StepDefination.User_checking_price_on_the_checkout_page(Swag_Lab_StepDefination.java:77)
-	at ✽.User checking price on the checkout page(file:///C:/Users/shidd/eclipse-workspace/Swag_Labs/Features/Swag_Labs.feature:14)
-</pre></div><a href='#' onClick='toggleBox("stack-trace583351682", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace583351682'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;32.39&apos;]&quot;}
+	at swag_labs_pages.CheckoutPage.verifyPrice(CheckoutPage.java:69)
+	at swag_labs_steps.Swag_Lab_StepDefination.User_checking_price_on_the_checkout_page(Swag_Lab_StepDefination.java:60)
+	at ✽.User checking price on the checkout page(file:///C:/Users/shidd/eclipse-workspace/Swag_Labs/Features/Swag_Labs.feature:15)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1172943149", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1172943149'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;32.39&apos;]&quot;}
   (Session info: chrome=147.0.7727.102)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [716c8b1a9be6da5ece4fb4c0f1522533, findElement {value=//div[text()=&apos;32.39&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\shidd\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53165}, goog:processID: 25736, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53165/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 716c8b1a9be6da5ece4fb4c0f1522533
+Command: [b5ec49ceb80ca5c4d6043c7118113115, findElement {value=//div[text()=&apos;32.39&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\shidd\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62731}, goog:processID: 20004, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62731/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b5ec49ceb80ca5c4d6043c7118113115
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -127,24 +127,12 @@ Session ID: 716c8b1a9be6da5ece4fb4c0f1522533
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy23.getText(Unknown Source)
-	at swag_labs_pages.CheckoutPage.verifyPrice(CheckoutPage.java:62)
-	at swag_labs_steps.Swag_Lab_StepDefination.User_checking_price_on_the_checkout_page(Swag_Lab_StepDefination.java:77)
-	at ✽.User checking price on the checkout page(file:///C:/Users/shidd/eclipse-workspace/Swag_Labs/Features/Swag_Labs.feature:14)
-</pre></div></td>
-<td>3</td>
-<td>swag_labs_steps.Swag_Lab_Runner@477b4cdf</td></tr>
-<tr>
-<td title='swag_labs_steps.Swag_Lab_Runner.runScenario()'><b>runScenario</b><br>Test class: swag_labs_steps.Swag_Lab_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify User should able to place backpack E2E order", "E2E order submission"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.getText()&quot; because &quot;this.ShippingInfo&quot; is null
-	at swag_labs_steps.Swag_Lab_StepDefination.User_checking_verbiage_on_the_checkout_page(Swag_Lab_StepDefination.java:65)
-	at ✽.User checking verbiage on the checkout page(file:///C:/Users/shidd/eclipse-workspace/Swag_Labs/Features/Swag_Labs.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace907721985", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace907721985'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.getText()&quot; because &quot;this.ShippingInfo&quot; is null
-	at swag_labs_steps.Swag_Lab_StepDefination.User_checking_verbiage_on_the_checkout_page(Swag_Lab_StepDefination.java:65)
-	at ✽.User checking verbiage on the checkout page(file:///C:/Users/shidd/eclipse-workspace/Swag_Labs/Features/Swag_Labs.feature:6)
+	at swag_labs_pages.CheckoutPage.verifyPrice(CheckoutPage.java:69)
+	at swag_labs_steps.Swag_Lab_StepDefination.User_checking_price_on_the_checkout_page(Swag_Lab_StepDefination.java:60)
+	at ✽.User checking price on the checkout page(file:///C:/Users/shidd/eclipse-workspace/Swag_Labs/Features/Swag_Labs.feature:15)
 </pre></div></td>
 <td>4</td>
-<td>swag_labs_steps.Swag_Lab_Runner@477b4cdf</td></tr>
+<td>swag_labs_steps.Swag_Lab_Runner@233795b6</td></tr>
 </table><p>
 </body>
 </html>

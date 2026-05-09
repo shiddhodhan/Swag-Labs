@@ -1,10 +1,14 @@
 package swag_labs_pages;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.asserts.SoftAssert;
 
 public class CheckoutPage {
@@ -39,6 +43,10 @@ public class CheckoutPage {
 	}
 
 	public void YourInfo() {
+		
+//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+//
+//	    wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("first-name")));
 
 		FirstName.sendKeys("Test");
 		LastName.sendKeys("Tester");
@@ -64,6 +72,10 @@ public class CheckoutPage {
 		ass.assertEquals(TotalPrice, exp);
 
 		ass.assertAll();
+	
+	}
+	
+	public void SubmitOrder() {
 		finish.click();
 	}
 

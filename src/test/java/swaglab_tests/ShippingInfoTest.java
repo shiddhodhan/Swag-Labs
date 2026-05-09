@@ -21,10 +21,9 @@ import swag_labs_pages.Login_Page;
 public class ShippingInfoTest extends Base {
 	Login_Page login;
 	Home_Page homePage;
-	CartPage checkout;
-	CheckoutPage yourinfo;
-	CheckoutPage verifyPrice;
-
+	CartPage cartpageCheckoutButton;
+	CheckoutPage checkout;
+	
 	ExtentReports extent = Utility.Reports();
 
 	@BeforeClass
@@ -32,10 +31,9 @@ public class ShippingInfoTest extends Base {
 		LaunchBrowser();
 		login = new Login_Page(driver);
 		homePage = new Home_Page(driver);
-		checkout = new CartPage(driver);
-		yourinfo = new CheckoutPage(driver);
-		verifyPrice = new CheckoutPage(driver);
-		
+		cartpageCheckoutButton = new CartPage(driver);
+		checkout = new CheckoutPage(driver);
+	 
 
 	}
 
@@ -69,24 +67,26 @@ public class ShippingInfoTest extends Base {
 	@Test(priority = 3)
 	public void checkout() {
 		ExtentTest test3 = extent.createTest("Verify shipping verbiage as expected or not");
-		checkout.Checkout();
-		yourinfo.YourInfo();
+		cartpageCheckoutButton.CheckoutButton();
+		 checkout.YourInfo();
 		test3.pass("Shipping verbiage is expected");
 	}
-	
-	@Test(priority=4)
-	public void VerifyPrice(){
-		
+
+	@Test(priority = 4)
+	public void VerifyPrice() {
+
 		ExtentTest test4 = extent.createTest("Verify Total Price");
-		 verifyPrice.verifyPrice();
-		
+	checkout.verifyPrice();
+
 		test4.pass("price is expected");
-		
-		
+
 	}
-	
-		
-		
-	
+
+	@Test(priority = 5)
+	public void SubmitOrder() {
+		ExtentTest test5 = extent.createTest("Order submission");
+	checkout.SubmitOrder();
+		test5.pass("order submitted successfully");
+	}
 
 }
